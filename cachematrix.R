@@ -1,5 +1,5 @@
 ## Write a short comment describing this function
-## funcion del vector y su inverso
+## funcion del vector que da su inverso
 makeCacheMatrix <- function(x = matrix()) {
   inv = NULL
   set = function(y) {
@@ -14,7 +14,7 @@ makeCacheMatrix <- function(x = matrix()) {
 
 
 ## Write a short comment describing this function
-
+## entrega el inverso del vectorsi esta en el cache
 cacheSolve <- function(x, ...) {
   inv = x$getinv()
   if (!is.null(inv)){
